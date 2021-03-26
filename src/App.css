@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.personInfo{
+  border: 1px solid black;
+  max-width: 400px;
+  margin: 0 auto;
+
+}
+.person-card {
+  display: block;
+  padding: 2em; 
+  border: 1px solid black;
+  margin: .5em;
+}
+.home-words{
+  color: gold;
+  background-color: black;
+}
+.star{
+  height: 300px;
+  color: gold;
+  background: url(https://media.giphy.com/media/2w5MMNvg70MrQ0I2DR/giphy.gif)   center no-repeat;
+  padding-bottom: 30px;
+  background-color: black;
+
+}
+
+
+
+
+/* header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+
+
+header{
+  background-color: black;
+  color: white;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
